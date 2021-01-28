@@ -10,3 +10,4 @@ should is sorted by driving time and distance (if time is equal).
 3. Create executable file ```$ go build```
 4. Change the executable file rights ```$ chmod +x ./ingrid-task```
 5. Start the server on port 8080 ```$ ./ingrid-task```
+6. Test routing ```$ curl 'http://localhost:8080/routes?src=13.388860,52.517037&dst=13.397634,52.529407&dst=13.428555,52.523219'```
